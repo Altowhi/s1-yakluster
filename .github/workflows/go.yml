@@ -31,4 +31,5 @@ jobs:
         with:
 
           push: true
-          tags: shutdown01/s1:latest-v1
+          tags: shutdown01/s1:1
+          #change tag and look which folder stefan is running from, u run from s1-yakluster

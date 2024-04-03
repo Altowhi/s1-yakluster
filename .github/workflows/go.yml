@@ -17,7 +17,7 @@ jobs:
         name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
       -
-        
+
         name: Login to Docker Hub
         uses: docker/login-action@v3
         with:
@@ -31,4 +31,4 @@ jobs:
         with:
 
           push: true
-          tags: user/app:latest-v1
+          tags: shutdown01/s1:latest-v1
